@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/sketch.css">
   </head>
   <body>
-    <a href="https://accounts.spotify.com/authorize?client_id=865f5b5b201c4f16ba15284057e4f26b&response_type=token&redirect_uri=http%3A%2F%2F0.0.0.0%3A8000%2F&scope=user-read-currently-playing" id="authenticate">Authorise Spotify</a>
+    <a href="#" id="authenticate">Authorise Spotify</a>
     <header>
       <input type="text" id="searchBox">
       <button id="searchButton" onclick="searchForSong()">Search</button>
@@ -30,5 +30,11 @@ Song Energy: No. of Lines             =
 Song Tempo: Radius                    =</pre>
 
     </section>
+    <script type="text/javascript">
+    var authURL = "https://accounts.spotify.com/authorize?client_id=865f5b5b201c4f16ba15284057e4f26b&response_type=token&scope=user-read-currently-playing"
+    var authRedirect = "&redirect_uri=" + encodeURIComponent("https://adrianfranzese.github.io/P5_plus_Spotify/")
+
+    document.getElementById("authenticate").href = authURL + authRedirect
+    </script>
   </body>
 </html>
