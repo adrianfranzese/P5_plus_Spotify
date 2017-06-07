@@ -69,7 +69,6 @@ if (window.location.hash == "") {
 }
 else {
   s.setAccessToken(getURLQuery('access_token'))
-  console.log(s.getAccessToken())
 }
 
 function searchAudioFeatures() {
@@ -194,6 +193,7 @@ function draw() {
   // loadImage(albArt, function(img) {
   //   image(img, 0, 0)
   // })
+  background(ColH, ColS, ColB, 0.1)
 
   var cssCol = 'hsl(' + ColH + ',' + ColS + '%,' + ColB + '%)'
   select("#info").style('color', cssCol)
