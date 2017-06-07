@@ -193,7 +193,7 @@ function draw() {
   // loadImage(albArt, function(img) {
   //   image(img, 0, 0)
   // })
-  background(ColH, ColS, ColB, 0.1)
+  background(ColH+30, ColS, ColB, 0.1)
 
   var cssCol = 'hsl(' + ColH + ',' + ColS + '%,' + ColB + '%)'
   select("#info").style('color', cssCol)
