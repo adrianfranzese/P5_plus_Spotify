@@ -34,6 +34,7 @@
 // var authURL = "https://accounts.spotify.com/authorize"
 // var authClient = "?client_id=" + "865f5b5b201c4f16ba15284057e4f26b"
 // var authRType = "&response_type=token"
+// var authRedirect = "&redirect_uri=" + encodeURIComponent("http:adrianfranzese.github.io/P5_plus_Spotify/")
 // var authRedirect = "&redirect_uri=" + encodeURIComponent("http://0.0.0.0:8000/")
 // var authScope = "&scope=" + "user-read-currently-playing"
 // var auth = authURL + authClient + authRType + authRedirect + authScope
