@@ -5,9 +5,13 @@ body {
   overflow: hidden;
 }
 
-#auth {
+#authenticate {
   display: block;
   margin-bottom: 1em;
+}
+
+#currentTrack {
+  margin-left: 2em;
 }
 
 header {
@@ -16,10 +20,11 @@ header {
 
 section {
   float: left;
+  margin-top: 2em;
+  margin-right: 2em;
 }
 
 #info {
-  color: #fff;
   font-size: 12px;
 }
 
